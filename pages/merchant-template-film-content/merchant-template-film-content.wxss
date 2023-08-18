@@ -31,6 +31,9 @@
   font-size: 28rpx;
   color: #3B5072;
 }
+.film-content-body .section:last-child input::after { 
+  content: '图片标题：';
+}
 .film-content-body .section input+text { 
   position: absolute;
   right: 30rpx;

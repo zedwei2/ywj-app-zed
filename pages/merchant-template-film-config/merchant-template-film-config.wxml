@@ -1,6 +1,6 @@
-<view class="film-content-wrapper">
-  <form class="film-content-form" catchsubmit="formSubmit">
-    <view class="film-content-body">
+<view class="film-config-wrapper">
+  <form class="film-config-form" catchsubmit="formSubmit">
+    <view class="film-config-body">
       <view class="section">
         <view class="section__title">电影封面图：</view>
         <view class="section__img">
@@ -36,7 +36,7 @@
         </view>
       </view>
     </view>
-    <view class="film-content-footer">
+    <view class="film-config-footer">
       <button formType="submit">保存</button>
     </view>
   </form>

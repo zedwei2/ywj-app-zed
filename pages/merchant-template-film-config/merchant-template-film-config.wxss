@@ -4,16 +4,16 @@
 }
 
 /* page */
-.film-content-body {
+.film-config-body {
   padding: 40rpx 30rpx;
 }
-.film-content-body .section__title{
+.film-config-body .section__title{
   font-size: 30rpx;
   color: #00103F;
   font-weight: 600;
   margin-bottom: 10rpx;
 }
-.film-content-body .section input {
+.film-config-body .section input {
   max-height: 70rpx;
   padding: 15rpx 86rpx 15rpx 20rpx;
   background: #FFFFFF;
@@ -23,14 +23,14 @@
   color: #3B5072;
   position: relative;
 }
-.film-content-body .section input+text { 
+.film-config-body .section input+text { 
   position: absolute;
   right: 30rpx;
   bottom: 20rpx;
   font-size: 28rpx;
   color: #0091FF;
 }
-.film-content-body .section button { 
+.film-config-body .section button { 
   width: 250rpx;
   height: 70rpx;
   background: #FFF3EB;
@@ -40,14 +40,14 @@
   color: #FA6400;
   margin-bottom: 60rpx;
 }
-.film-content-body .section button::after{ 
+.film-config-body .section button::after{ 
   display: none;
 }
-.film-content-body .section .placeholder-style {
+.film-config-body .section .placeholder-style {
   color: #DDDDDD;
   font-size: 28rpx;
 }
-.film-content-body .section__img {
+.film-config-body .section__img {
   width: 284rpx;
   height: 400rpx;
   background: #F4F8FF;
@@ -57,17 +57,17 @@
   margin-bottom: 60rpx;
   border-radius: 12px;
 }
-.film-content-body .film-upload {
+.film-config-body .film-upload {
   width: 100%;
   height: 100%;
   text-align: center;
 }
-.film-content-body .film-upload image {
+.film-config-body .film-upload image {
   width: 126rpx;
   height: 126rpx;
   margin-bottom: 40rpx;
 }
-.film-content-body .film-upload text {
+.film-config-body .film-upload text {
   font-size: 24rpx;
   color: #3B5072;
   display: block;
@@ -75,7 +75,7 @@
   margin: auto;
 }
 
-.film-content-footer {
+.film-config-footer {
   width: 100%;
   text-align: center;
   display: flex;
@@ -83,7 +83,7 @@
   padding: 30rpx 0;
   border-top: 1px solid rgba(237,241,240,1);
 }
-.film-content-footer button {
+.film-config-footer button {
   width: 334rpx;
   height: 88rpx;
   line-height: 88rpx;
