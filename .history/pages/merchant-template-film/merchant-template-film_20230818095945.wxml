@@ -1,0 +1,18 @@
+<view class="film-area">
+  <view class="film-header">
+    <image class="film" src="/images/avatar/1.png" />
+    <view class="" >
+      
+    </view>
+    
+
+  </view>
+  <view class="film-body">
+    <view class="">
+    
+    </view>
+  </view>
+  <view class="film-footer">
+    
+  </view>
+</view>

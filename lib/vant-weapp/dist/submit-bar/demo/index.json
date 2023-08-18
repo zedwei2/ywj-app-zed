@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-tag": "../../tag/index",
+    "van-toast": "../../toast/index",
+    "van-submit-bar": "../../submit-bar/index",
+    "demo-block": "../../../components/demo-block/index"
+  }
+}

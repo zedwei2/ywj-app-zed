@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "van-uploader": "/lib/vant-weapp/dist/uploader/index"
+  }
+}

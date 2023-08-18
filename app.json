@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/merchant-template-film-config/merchant-template-film-config",
+    "pages/merchant-template-film/merchant-template-film",
+    "pages/merchant-template-film-content/merchant-template-film-content",
+    "pages/merchant-template-film-share/merchant-template-film-share"
+  ]
+}

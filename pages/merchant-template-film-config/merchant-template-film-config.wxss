@@ -1,0 +1,96 @@
+/* global */
+.relative {
+  position: relative;
+}
+
+/* page */
+.film-content-body {
+  padding: 40rpx 30rpx;
+}
+.film-content-body .section__title{
+  font-size: 30rpx;
+  color: #00103F;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+.film-content-body .section input {
+  max-height: 70rpx;
+  padding: 15rpx 86rpx 15rpx 20rpx;
+  background: #FFFFFF;
+  border: 1rpx solid rgba(221,221,221,1);
+  border-radius: 12rpx;
+  margin-bottom: 60rpx;
+  color: #3B5072;
+  position: relative;
+}
+.film-content-body .section input+text { 
+  position: absolute;
+  right: 30rpx;
+  bottom: 20rpx;
+  font-size: 28rpx;
+  color: #0091FF;
+}
+.film-content-body .section button { 
+  width: 250rpx;
+  height: 70rpx;
+  background: #FFF3EB;
+  border: 1rpx solid rgba(250,100,0,1);
+  border-radius: 12rpx;
+  font-size: 26rpx;
+  color: #FA6400;
+  margin-bottom: 60rpx;
+}
+.film-content-body .section button::after{ 
+  display: none;
+}
+.film-content-body .section .placeholder-style {
+  color: #DDDDDD;
+  font-size: 28rpx;
+}
+.film-content-body .section__img {
+  width: 284rpx;
+  height: 400rpx;
+  background: #F4F8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60rpx;
+  border-radius: 12px;
+}
+.film-content-body .film-upload {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.film-content-body .film-upload image {
+  width: 126rpx;
+  height: 126rpx;
+  margin-bottom: 40rpx;
+}
+.film-content-body .film-upload text {
+  font-size: 24rpx;
+  color: #3B5072;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.film-content-footer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 30rpx 0;
+  border-top: 1px solid rgba(237,241,240,1);
+}
+.film-content-footer button {
+  width: 334rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-image: linear-gradient(270deg, #FF3500 0%, #FF0000 100%);
+  box-shadow: 0rpx 5rpx 15rpx 0rpx rgba(255,173,173,0.5);
+  border-radius: 44rpx;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  font-weight: 600;
+}

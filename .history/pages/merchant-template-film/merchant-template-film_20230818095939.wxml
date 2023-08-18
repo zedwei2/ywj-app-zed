@@ -1,0 +1,20 @@
+<view class="film-area">
+  <view class="film-header">
+    <image class="film" src="/images/avatar/1.png" />
+    <view class="" hover-class="none" hover-stop-propagation="false">
+      
+    </view>
+    <text>
+      
+    </text>
+
+  </view>
+  <view class="film-body">
+    <view class="">
+    
+    </view>
+  </view>
+  <view class="film-footer">
+    
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="film-area">
+  <view class="">
+    <image class="" src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+      
+    </image>
+
+  </view>
+  <view class="">
+    
+  </view>
+  <view class="">
+    
+  </view>
+  <view class="">
+    
+  </view>
+</view>

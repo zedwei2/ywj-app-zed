@@ -1,0 +1,28 @@
+<view class="film-area">
+  <view class="film-header">
+    <image  src="/images/avatar/1.png" alt="1"/>
+    <view class="film-header-desc" >
+      <text class="film-header-title">
+        封神第一部
+      </text>
+      <text class="film-header-desc">
+        该片讲述商王殷寿与狐妖妲己勾
+        结，暴虐无道，引发天谴。昆仑
+        仙人姜子牙携…
+      </text>
+      <text class="film-header-time">
+        时长:2小时30分
+      </text>
+    </view>
+    
+
+  </view>
+  <view class="film-body">
+    <view class="">
+    
+    </view>
+  </view>
+  <view class="film-footer">
+    
+  </view>
+</view>

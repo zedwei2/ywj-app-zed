@@ -1,0 +1,43 @@
+<view class="film-content-wrapper">
+  <form class="film-content-form" catchsubmit="formSubmit">
+    <view class="film-content-body">
+      <view class="section">
+        <view class="section__title">电影封面图：</view>
+        <view class="section__img">
+          <van-uploader>
+            <view class="film-upload">
+              <image src="/images/activity/merchant/film-upload.svg" />
+              <text>上传封面图</text>
+              <text>(尺寸284X400)</text>
+            </view>
+          </van-uploader>
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__title">电影名称：</view>
+        <view class="relative">
+          <input name="title" placeholder="请输入电影名称" placeholder-class="placeholder-style" />
+          <text>粘贴</text>
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__title">电影简介(40字以内)：</view>
+        <view class="relative">
+          <input name="desc" placeholder="请输入电影简介" placeholder-class="placeholder-style" />
+          <text>粘贴</text>
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__title">电影时长：</view>
+        <view class="relative">
+          <!-- input name 需要修改不同值 form 提交时能获取对应input值-->
+          <input name="desc111111111111111111111111111111" placeholder="请输入联系人称呼" placeholder-class="placeholder-style" />
+          <text>粘贴</text>
+        </view>
+      </view>
+    </view>
+    <view class="film-content-footer">
+      <button formType="submit">保存</button>
+    </view>
+  </form>
+</view>

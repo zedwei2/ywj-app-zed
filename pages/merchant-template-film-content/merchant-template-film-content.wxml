@@ -1,0 +1,46 @@
+<view class="film-content-wrapper">
+  <form class="film-content-form" catchsubmit="formSubmit">
+    <view class="film-content-body">
+      <view class="section">
+        <view class="section__title">电影视频：</view>
+        <view class="section__img">
+          <van-uploader>
+            <!-- 此图片要换 和设计稿不符 -->
+            <view class="film-upload">
+              <image src="/images/activity/merchant/film-upload.svg" />
+              <text>上传电影视频</text>
+              <text>(尺寸690X388)</text>
+            </view>
+          </van-uploader>
+        </view>
+        <view class="relative">
+          <input name="title" placeholder="请输入视频标题" placeholder-class="placeholder-style" />
+          <text>粘贴</text>
+        </view>
+        <button>新增视频</button>
+        <!-- 知识点：伪类不可设置点击事件 此处粘贴可绑定点击事件 看完删除-->
+      </view>
+      <view class="section">
+        <view class="section__title">电影壁纸：</view>
+        <view class="section__img">
+          <van-uploader>
+            <!-- 此图片要换 和设计稿不符 -->
+            <view class="film-upload">
+              <image src="/images/activity/merchant/film-upload.svg" />
+              <text>上传壁纸图片</text>
+              <text>(尺寸690X388)</text>
+            </view>
+          </van-uploader>
+        </view>
+        <view class="relative">
+          <input name="desc" placeholder="请输入图片标题" placeholder-class="placeholder-style" />
+          <text>粘贴</text>
+        </view>
+        <button>新增视频</button>
+      </view>
+    </view>
+    <view class="film-content-footer">
+      <button formType="submit">保存</button>
+    </view>
+  </form>
+</view>

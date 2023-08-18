@@ -1,0 +1,26 @@
+<view class="film-area">
+  <view class="film-header">
+    <image class="film" src="/images/avatar/1.png" />
+    <view class="" >
+      <text>
+        封神第一部
+      </text>
+      <text>
+        该片讲诉shang'wang
+      </text>
+      <text>
+      
+      </text>
+    </view>
+    
+
+  </view>
+  <view class="film-body">
+    <view class="">
+    
+    </view>
+  </view>
+  <view class="film-footer">
+    
+  </view>
+</view>

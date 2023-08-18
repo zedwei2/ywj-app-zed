@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/merchant-template-film/merchant-template-film",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  }
+}

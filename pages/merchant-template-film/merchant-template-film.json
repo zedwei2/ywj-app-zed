@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "film-checkbox": "../component/film-checkbox/index"
+  }
+}

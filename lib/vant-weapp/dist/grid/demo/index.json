@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-grid": "../../grid/index",
+    "van-grid-item": "../../grid-item/index",
+    "demo-block": "../../../components/demo-block/index"
+  }
+}

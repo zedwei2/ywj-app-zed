@@ -1,0 +1,10 @@
+<view class="film-wrapper">
+  <view wx:if="{{isEdit}}" class="film-box" bindtap="onFilmEdit">
+    <image class="film-icon" src="/images/activity/merchant/film-bg.jpg"></image>
+    <text>{{ editTitle }}</text>
+  </view>
+  <view wx:if="{{isShowCheckbox}}" class="film-box" bindtap="onFilmCheck">
+    <icon class="{{ isActive ? 'film-checkbox active' : 'film-checkbox' }}" ></icon>
+    <text>{{ title }}</text>
+  </view>
+</view>

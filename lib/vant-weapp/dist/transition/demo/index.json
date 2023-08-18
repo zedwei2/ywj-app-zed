@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-cell": "../../cell/index",
+    "van-transition": "../../transition/index",
+    "demo-block": "../../../components/demo-block/index"
+  }
+}

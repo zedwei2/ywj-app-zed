@@ -1,0 +1,8 @@
+<view class="container">
+  <van-button type="primary">默认按钮ssss</van-button>
+  <text>
+  
+  </text>
+
+
+</view>

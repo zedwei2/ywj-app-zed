@@ -1,0 +1,54 @@
+<view class="film-wrapper">
+  <view class="film-header">
+    <image
+      class="film-header-bg"
+      src="/images/activity/merchant/film-bg.jpg"
+    />
+    <view class="film-header-img">
+      <film-checkbox isShowCheckbox="{{false}}" isActive="{{false}}" isEdit="{{true}}"/>
+      <image class="film-img" src="/images/activity/merchant/film-wallpaper.png" />
+    </view>
+    <view class="film-header-content">
+      <view class="relative">
+        <film-checkbox wx:if="{{true}}" isShowCheckbox="{{false}}" isEdit="{{true}}" editTitle="编辑分享内容"/>
+        <button wx:else class="film-content-share">分享</button>
+      </view>
+      <text class="film-content-title">
+        封神第一部
+      </text>
+      <text class="film-content-desc">
+        该片讲述商王殷寿与狐妖妲己勾
+        结，暴虐无道，引发天谴。昆仑
+        仙人姜子牙携…
+      </text>
+      <text class="film-content-time">
+        时长：2小时30分
+      </text>
+    </view>
+  </view>
+  <view class="film-body">
+    <view class="film-body-content">
+      <!-- 封面图有规格要求 应该能铺满 看完后删除此注释 -->
+      <view class="relative">
+        <film-checkbox isActive="{{true}}" isEdit="{{true}}"/>
+        <video 
+          poster="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+          src="{{src}}"
+          show-center-play-btn auto-pause-if-navigate auto pause-if-open-native>
+        </video>
+        <text class="film-body-title">《封神》中国式的美学太惊艳了！</text>
+        <button>新增视频</button>
+      </view>
+      <view class="relative">
+        <film-checkbox isEdit="{{true}}"/>
+        <image class="film-wallpaper" src="/images/activity/merchant/film-wallpaper.png" />
+        <text class="film-body-title">领封神角色高清壁纸</text>
+        <button>新增壁纸</button>
+      </view>
+    </view>
+  </view>
+  <view class="film-footer">
+    <button>预览并保存</button>
+    <button>发布</button>
+  </view>
+</view>

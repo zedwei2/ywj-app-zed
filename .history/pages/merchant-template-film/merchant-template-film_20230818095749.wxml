@@ -1,0 +1,19 @@
+<view class="film-area">
+  <view class="film-header">
+    <image class="/" src="" >
+
+    </image>
+    <text>
+      
+    </text>
+
+  </view>
+  <view class="film-body">
+    <view class="">
+    
+    </view>
+  </view>
+  <view class="film-footer">
+    
+  </view>
+</view>
